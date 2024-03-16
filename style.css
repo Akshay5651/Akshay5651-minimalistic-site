@@ -1,0 +1,184 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+@font-face {
+  font-family: "Gilroy";
+  src: url(../proj2/css/gilroy/Gilroy-Bold.ttf);
+}
+
+html body {
+  height: 100%;
+  width: 100%;
+}
+
+#main {
+  width: 100%;
+  font-family: "Gilroy", sans-serif;
+}
+
+#nav {
+  height: 100%;
+  width: 100%;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+
+#main1 {
+  width: 55%;
+  display: flex;
+  justify-content: space-between;
+  padding: 20px 60px;
+}
+
+#main1 h3 {
+  font-size: 20px;
+  font-weight: 600;
+}
+
+#main2 div{
+  display: flex;
+  font-size: 20px;
+  font-weight: 600;
+}
+
+#main2 div:hover{
+  text-decoration:underline;
+}
+
+#main2 sup {
+  font-size: 12px;
+  color: orange;
+}
+
+#main1-right {
+  display: flex;
+  justify-content: space-between;
+}
+
+#main1-right h3 {
+  padding-left: 20px;
+}
+
+#main2 {
+  width: 45%;
+  display: flex;
+  justify-content: space-between;
+  padding: 40px 65px;
+}
+
+#chat i {
+  margin-left: 3px;
+  font-size: 23px;
+}
+
+#content {
+  height: 60%;
+  width: 100%;
+  padding: 40px 65px;
+  margin-bottom: 180px;
+}
+
+#content h4 {
+  font-size: 30px;
+}
+
+#content h1 {
+  font-size: 120px;
+  font-weight: 500;
+  letter-spacing: -8px;
+  word-spacing: 15px;
+}
+
+#middle {
+  height: 40px;
+  width: 100%;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  padding: 40px 65px;
+  font-size: 25px;
+  font-weight: 600;
+}
+
+#middle2 {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  font-size: 25px;
+  font-weight: 600;
+}
+
+#middle2 div {
+  padding-right: 150px;
+  margin-right: 40px;
+  background-color: cyan;
+  border-top: 2px solid #000;
+}
+
+#footer {
+  height: 500px;
+  width: 100%;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  padding: 40px 65px;
+}
+
+#footer-left,
+#footer-right {
+  height: 100%;
+  width: 100%;
+  margin: 10px;
+}
+
+.image1 {
+  height: 100%;
+  width: 100%;
+  background-image: url(https://img.freepik.com/premium-photo/yellow-orange-diamond-big-beautiful-jewel-exquisite-gemstone-elegance-luxury_981289-602.jpg?w=740);
+  object-fit: cover;
+  background-size: cover;
+  border-radius: 20px;
+}
+
+.image2 {
+  height: 100%;
+  width: 100%;
+  background-image: url(https://cdn6.aptoide.com/imgs/8/b/c/8bcadc8851034bd8485e21441f461564_screen.png?w=244);
+  background-size: cover;
+  border-radius: 20px;
+}
+
+#footer-content {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  padding: 20px 0;
+}
+
+#footer-content h2 {
+  font-size: 22px;
+  font-weight: 700;
+}
+
+#footer-content p {
+  font-size: 14px;
+  font-weight: 600;
+  color: #9e9999bf;
+}
+
+#footer-content i {
+  font-size: 18px;
+  font-weight: 600;
+  padding: 15px 24px;
+  border-radius: 40px;
+  border: 2px solid #000;
+}
+
+#footer-content i:hover {
+  color: #fff;
+  background-color: #000;
+  cursor: pointer;
+}
